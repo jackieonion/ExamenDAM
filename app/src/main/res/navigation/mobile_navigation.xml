@@ -22,4 +22,22 @@
         android:name="com.example.dam2m8_exemplellistadetall.ui.llista.LlistaFragment"
         android:label="Llistat"
         tools:layout="@layout/fragment_llista" />
+
+    <fragment
+        android:id="@+id/nav_asistents"
+        android:name="com.example.dam2m8_exemplellistadetall.ui.Assistents.AssistentsFragment"
+        android:label="Assistents"
+        tools:layout="@layout/fragment_llista" />
+
+    <fragment
+        android:id="@+id/nav_asistir"
+        android:name="com.example.dam2m8_exemplellistadetall.ui.Assistir.AssistirFragment"
+        android:label="Assistents"
+        tools:layout="@layout/fragment_asistir" />
+
+    <fragment
+        android:id="@+id/nav_event_edit"
+        android:name="com.example.dam2m8_exemplellistadetall.ui.Esdeveniment.NouEsdevenimentFragment"
+        android:label="Esdeveniment"
+        tools:layout="@layout/fragment_event_edit"/>
 </navigation>
